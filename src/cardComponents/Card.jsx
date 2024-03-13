@@ -2,8 +2,9 @@ import styles from './Card.module.css'
 import PropTypes from "prop-types";
 
 function Card(props) {
+
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={() => props.handleClick(props.name)}>
             <img className={styles.cardImage}
                  src={props.image}
                  alt={props.name}></img>

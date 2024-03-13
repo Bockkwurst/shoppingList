@@ -1,13 +1,13 @@
-function List({items}){
+function List(props){
     return(
-        <div>
-            <h2>Shopping List</h2>
+        <div className="list">
+            <h2 className="listTitle">Shopping List</h2>
             <ul>
-                {items.map((item, index) => (
-                <li key={index}>{item}</li>
-
-                ))}</ul>
+                {props.shoppingList.map((name) =>(
+                <li className="listItem">{name}</li>
+                ))}
+            </ul>
         </div>
     );
 }
-export default List
+export default List;
