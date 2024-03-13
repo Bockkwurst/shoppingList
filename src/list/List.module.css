@@ -1,0 +1,16 @@
+.listTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+    text-decoration: midnightblue underline;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.list{
+    font-family: "Lucida Console", Arial;
+    font-size: 15px;
+}
+.listItems{
+    font-size: 15px;
+    background-color: lightcoral;
+}

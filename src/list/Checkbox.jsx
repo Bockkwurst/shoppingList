@@ -1,4 +1,4 @@
-import Styles from "./List.module.css"
+import styles from "./List.module.css"
 function Checkbox({name, checked, onChange}){
     return(
         <div className="checkbox">
